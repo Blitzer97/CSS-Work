@@ -1,13 +1,13 @@
-:root{
---fontfamily: 'Manrope', sans-serif;
---primarycolor: #f7f6f4;
---accentcolor: #709d61;
---secondarycolor: #000000;
+:root {
+  --fontfamily: "Manrope", sans-serif;
+  --primarycolor: #f7f6f4;
+  --accentcolor: #709d61;
+  --secondarycolor: #000000;
 }
-.dark{
---primarycolor: #000000;
---accentcolor: #21610c;
---secondarycolor: #ffffff;
+.dark {
+  --primarycolor: #000000;
+  --accentcolor: #21610c;
+  --secondarycolor: #ffffff;
 }
 body {
   min-height: 100%;
@@ -68,7 +68,7 @@ nav img {
   margin: auto;
   transition: 0.5s;
 }
- /*-----------------------Welcome Section----------------------*/   
+/*-----------------------Welcome Section----------------------*/
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -101,14 +101,14 @@ nav img {
 }
 .tbutton {
   display: inline-block;
-    text-decoration: none;
-    color: var(--primarycolor);
-    border: 2px solid var(--accentcolor);
-    padding: 12px 12px;
-    font-size: 16px;
-    background-color: var(--accentcolor);
-    margin-top: 50px;
-    cursor: pointer;
+  text-decoration: none;
+  color: var(--primarycolor);
+  border: 2px solid var(--accentcolor);
+  padding: 12px 12px;
+  font-size: 16px;
+  background-color: var(--accentcolor);
+  margin-top: 50px;
+  cursor: pointer;
 }
 .tbutton:hover {
   display: inline-block;
@@ -194,12 +194,11 @@ nav img {
   padding-top: 5px;
   font-size: 45px;
 }
-.welcomesection p{
+.welcomesection p {
   margin-top: 30px;
 }
 
 .readmore {
- 
   background-color: var(--primarycolor);
   color: var(--accentcolor);
 }
@@ -233,7 +232,7 @@ nav img {
   padding-top: 25px;
   font-size: 20px;
   color: var(--secondarycolor);
-  text-align: left;;
+  text-align: left;
   font-family: var(--fontfamily);
 }
 .sols p {
@@ -244,11 +243,10 @@ nav img {
   font-family: var(--fontfamily);
 }
 /*---------------------------Projects Section-------------------------*/
-.projects{
+.projects {
   gap: 16px;
- 
 }
-.pro img{
+.pro img {
   height: 200px;
   margin-bottom: -100;
   margin-left: 0;
@@ -297,36 +295,36 @@ nav img {
   border-radius: 20px;
 }
 /*--------------------------------Newsletter Section-------------------*/
-.container{
+.container {
   position: relative;
   display: flex;
   flex-direction: row;
 }
-.textbox{
-position: absolute;
-top: 42;
-left: -80;
-width: 100px;
-height: 50px;
+.textbox {
+  position: absolute;
+  top: 42;
+  left: -80;
+  width: 100px;
+  height: 50px;
 }
 .textboxclass {
   height: 60px;
   width: 350px;
   border-radius: 10px;
 }
-.subscribe{
+.subscribe {
   position: absolute;
-top: 0;
-left: 60;
-border-radius: 10px;
+  top: 0;
+  left: 60;
+  border-radius: 10px;
 }
 .text form {
   margin-top: 50px;
   text-align: center;
   height: 50px;
-  width:auto;
+  width: auto;
 }
-.subscribe{
+.subscribe {
   text-align: center;
   margin-left: 600px;
 }
@@ -334,43 +332,40 @@ border-radius: 10px;
   display: flex;
   flex-direction: row;
 }
-.textbox{
+.textbox {
   margin-left: 500px;
 }
-
-
 
 /*--------------------------------Footer Section-----------------------*/
 .flexy {
   padding-top: 200px;
   display: flex;
-  
 }
 .flexy > div {
   flex-basis: 25%;
   padding: 20px 15px;
 }
-.flexy1{
+.flexy1 {
   margin-right: 25px;
 }
-.flexy1 p{
+.flexy1 p {
   margin-top: 35px;
-  line-height: 1.6
+  line-height: 1.6;
 }
 
-.flexy2 ul{
+.flexy2 ul {
   margin-top: 20px;
   list-style: none;
 }
-.flexy2 li{
+.flexy2 li {
   padding-top: 15px;
 }
 /*---------------------Dark Mode--------------------------*/
 #moon {
-width: 25px;
-cursor: pointer;
+  width: 25px;
+  cursor: pointer;
 }
-nav ul{
+nav ul {
   flex: 1;
   text-align: right;
 }
